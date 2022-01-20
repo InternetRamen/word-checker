@@ -11,6 +11,6 @@ fs.readFile('./draft.txt', 'utf8', function(err, data) {
 		  }
 	  }
   }
-  if (txtArray.some(val => noWords.includes(val))) return console.log("YOU DIDN'T PASS STUPID")
+  if (txtArray.some(val => noWords.includes(val))) return console.log("YOU DIDN'T PASS")
   console.log("YAY YOU PASSED!")
 });
